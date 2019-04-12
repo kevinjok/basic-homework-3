@@ -4,13 +4,13 @@ int main(void)
 {
 	float height,weight;
 	float A,num;
-	printf("½Ð¿é¤J¨­°ªÅé­«\n");
-	printf("¨­°ª:");
+	printf("請輸入身高體重\n");
+	printf("身高:");
 	scanf("%f",&height);
-	printf("Åé­«:");
+	printf("體重:");
 	scanf("%f",&weight);
 	A=(height/100);
 	num=(weight/A/A);
-	printf("§AªºBMI­È¬°:%f",num);
+	printf("你的BMI值為:%f",num);
 	system("pause");
 }
