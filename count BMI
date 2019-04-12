@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(void)
+{
+	float height,weight;
+	float A,num;
+	printf("½Ð¿é¤J¨­°ªÅé­«\n");
+	printf("¨­°ª:");
+	scanf("%f",&height);
+	printf("Åé­«:");
+	scanf("%f",&weight);
+	A=(height/100);
+	num=(weight/A/A);
+	printf("§AªºBMI­È¬°:%f",num);
+	system("pause");
+}
